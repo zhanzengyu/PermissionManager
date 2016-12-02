@@ -8,11 +8,13 @@
 
 &nbsp;&nbsp;这里面的工具相关的代码也是参考之前github上别人分享的，不过他的代码太过复杂，所以我这里抽取出来并且以实际demo的形式来演示如何动态申请权限，供大家参考。
 
-使用步骤：  
-1. 拷贝permission包下的所有文件到你的项目中。  
+**使用步骤：**  
+_1. 拷贝permission包下的所有文件到你的项目中。  
 2. 定义PermissionHelper变量。  
 3. 在需要检查权限的地方调用doPermissionCheck()方法。  
 4. 实现OnPermissionCallback回调接口。  
-5. 在实现的回调方法里面做各自的事情。具体可以看注释。也可以通过添加日志的方式来观察。    
+5. 在实现的回调方法里面做各自的事情。具体可以看注释。也可以通过添加日志的方式来观察。_  
 
-&nbsp;&nbsp;**__欢迎star和follow__**。
+&nbsp;&nbsp;**__欢迎star和follow__**。  
+
+![请求权限图片](./require_permission.png)
