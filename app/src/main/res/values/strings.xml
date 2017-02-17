@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PermissionManager</string>
+    <string name="open_storage_permit">请打开存储权限</string>
+    <string name="open_sms_permit">请打开短信权限</string>
+    <string name="open_permit">请打开权限</string>
+
 </resources>
