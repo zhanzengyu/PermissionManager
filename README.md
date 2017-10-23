@@ -18,3 +18,6 @@ _1. 拷贝permission包下的所有文件到你的项目中。
 &nbsp;&nbsp;**__欢迎star和follow__**。  
 
 ![请求权限图片](./require_permission.png)
+
+
+[参考的原github传送门](https://github.com/k0shk0sh/PermissionHelper)
