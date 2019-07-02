@@ -9,10 +9,11 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import com.nesger.permission.PermissionHelper;
-import com.nesger.permission.callback.OnPermissionCallback;
+import com.zengyu.permission.PermissionHelper;
+import com.zengyu.permission.callback.OnPermissionCallback;
 
-public class MainActivity extends AppCompatActivity implements OnPermissionCallback{
+
+public class MainActivity extends AppCompatActivity implements OnPermissionCallback {
 
     private PermissionHelper permissionHelper;
     //值唯一即可,这是为了返回做标识使用

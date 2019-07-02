@@ -1,4 +1,4 @@
-package com.nesger.permission.callback;
+package com.zengyu.permission.callback;
 
 import android.support.annotation.ColorInt;
 import android.support.annotation.NonNull;

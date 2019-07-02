@@ -1,4 +1,4 @@
-package com.nesger.permission;
+package com.zengyu.permission;
 
 import android.Manifest;
 import android.app.Activity;
@@ -13,8 +13,8 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 
-import com.nesger.permission.callback.OnActivityPermissionCallback;
-import com.nesger.permission.callback.OnPermissionCallback;
+import com.zengyu.permission.callback.OnActivityPermissionCallback;
+import com.zengyu.permission.callback.OnPermissionCallback;
 
 import java.util.ArrayList;
 import java.util.List;
