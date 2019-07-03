@@ -1,9 +1,12 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 28
 
-
+    lintOptions {
+        abortOnError false
+    }
 
     defaultConfig {
         minSdkVersion 15
@@ -31,4 +34,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+publish {
+    userOrg = 'zengyuzhan'
+    groupId = 'com.zengyu'
+    artifactId = 'permission'
+    publishVersion = '1.0.0'
+    desc = 'for android dynamic request permission'
+    website = 'https://github.com/nesger/PermissionManager'
 }
