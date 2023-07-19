@@ -1,5 +1,3 @@
-[ ![Download](https://api.bintray.com/packages/zengyuzhan/maven/permission/images/download.svg?version=1.0.0) ](https://bintray.com/zengyuzhan/maven/permission/1.0.0/link)
-
 在**android6.0之前**，当我们需要使用到存储权限时（如创建目录，保存图片等操作），我们**只需要在AndroidManifest.xml中申明权限即可**。
 
 但是在**android6.0之后**，**除了在AndroidManifest.xml中申明权限之外**，我们还**需要在代码中动态申请权限，让用户确认才可以**。
